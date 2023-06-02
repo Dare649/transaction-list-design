@@ -20,7 +20,7 @@ const App = () => {
         post.map((transaction) =>{
           return (
             <div key={transaction.id} className='flex bg-slate-50 my-6 p-2 rounded-lg hover:bg-slate-200'>
-              <img src="./src/images/send.png" alt={transaction.account} className='w-12 h-12 rounded-full'/>
+              <img src="./src/images/send-debit.png" alt={transaction.account} className='w-12 h-12 rounded-full'/>
               <div className='ml-4'>
                 <p>{transaction.account}</p>
                 <p>{transaction.date}</p>
