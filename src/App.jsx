@@ -14,14 +14,13 @@ const App = () => {
     })
   }, [])
   return (
-<div className='container mx-auto px-8'>
-      <div className='container mt-10 bg-slate-300 justify-center p-8 rounded-lg '>
+      <div className='container mt-20 mx-auto px-6 sm:w-2/4 md:w-3/6 bg-slate-100 rounded-lg p-8'>
       <p className='font-bold text-lg'>Transaction History</p>
       {
         post.map((transaction) =>{
           return (
-            <div key={transaction.id} className='flex bg-slate-50 my-6 p-2 rounded-lg'>
-              <img src="./src/images/face-pic.jpg" alt={transaction.account} className='w-12 h-12 rounded-full'/>
+            <div key={transaction.id} className='flex bg-slate-50 my-6 p-2 rounded-lg hover:bg-slate-200'>
+              <img src="./src/images/send.png" alt={transaction.account} className='w-12 h-12 rounded-full'/>
               <div className='ml-4'>
                 <p>{transaction.account}</p>
                 <p>{transaction.date}</p>
@@ -35,7 +34,6 @@ const App = () => {
         })
       }
     </div>
-</div>
   )
 }
 
