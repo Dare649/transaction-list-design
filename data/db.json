@@ -1,0 +1,32 @@
+{
+    "details":[
+        {
+            "id": 0,
+            "account": "Adebisi Femi",
+            "date": "07 May 2023",
+            "amount": "$ 100.00",
+            "transaction": "debit"
+        },
+        {
+            "id": 1,
+            "account": "Tony Stark",
+            "date": "01 Jun 2023",
+            "amount": "$ 500.00",
+            "transaction": "credit"
+        },
+        {
+            "id": 2,
+            "account": "Jane Bond",
+            "date": "07 Mar 2023",
+            "amount": "$ 10.00",
+            "transaction": "credit"
+        },
+        {
+            "id": 3,
+            "account": "James Bond",
+            "date": "10 May 2023",
+            "amount": "$ 1000.00",
+            "transaction": "credit"
+        }
+    ]
+}
